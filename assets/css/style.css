@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'HeadingFont';
+  src: url('../sweet_pea/Sweet Pea_2.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'SubFont';
+  src: url('../moon_flower/Moon Flower Bold.ttf'); /* IE9 Compat Modes */
+}
+body {
+    background-color: #9CE1C9;
+    color: #00334C;
+    font-size: 16px;
+}
+.main-banner {
+    background: url(../img/Pink_Front_Arrangement.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*100% of viewport height*/
+    min-height: 100vh;
+}
+.main-banner>.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.main-banner>.banner-text .logo {
+    white-space: nowrap;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#sticky-nav {
+    margin: 0;
+    background-color: rgba(255, 80, 80, .7);
+    font-family: 'SubFont', cursive;
+    border: none;
+}
+#sticky-nav a {
+    font-size: 3em;
+    color: #FFFBFB;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+}
+h1 {
+  font-family: 'HeadingFont', cursive;
+  font-size: 8em;
+  margin: 30px;
+  text-align: center;
+  /*navy*/
+  color: #00334C;
+}
+h2 {
+  font-family: 'HeadingFont', cursive;
+  font-size: 5em;
+  color: #00334C;
+}
+h4 {
+  font-family: 'HeadingFont', cursive;
+  font-size: 3.75em;
+  color: #00334C;
+}
+p {
+  font-family: 'Brawler', serif;
+  font-size: 1.25em;
+
+}
+img.couple-pic {
+  max-width: 350px;
+  max-height: 400px;
+}
+img.hotel-pic {
+  width: 250px;
+  height: 250px;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.maids, .lads {
+  font-family: 'Brawler', serif;
+}
+.marketing {
+  background-color: #9CE1C9;
+  padding: 40px 60px;
+  font-family: 'SubFont', cursive;
+}
+.marketing h3 {
+  color: #00334C;
+  font-size: 3em;
+}
+.glyphicon {
+  font-size: 2em;
+}
+
+.endorsements {
+    margin: 80px auto;
+    max-width: 1800px;
+}
+.endorsements blockquote {
+    border: none;
+    background-color: rgba(255, 80, 80, .7);
+    color: #FFFBFB;
+}
+
+blockquote h3 {
+    font-family: 'SubFont', cursive;
+}
+
+blockquote footer {
+    font-family: 'HeadingFont', cursive;
+    color: #FFFBFB;
+}
+
+blockquote, .blockquote-reverse {
+    display: inline-block;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+}
+
+.endorsements blockquote:nth-child(even) {
+    float: right;
+}
+
+.endorsements blockquote:nth-child(odd) {
+    float: left;
+}
+
+@media (max-width: 767px) {
+    blockquote h3, blockquote footer {
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+
+    .endorsements blockquote {
+        max-width: 85%;
+    }
+}
+
+@media (min-width: 768px) {
+    blockquote h3, blockquote footer {
+        font-size: 1.5em;
+        line-height: 1.3em;
+    }
+
+    .endorsements blockquote {
+        max-width: 65%;
+    }
+}
+.footer {
+  font-family: 'SubFont', cursive;
+  font-size: 3em;
+  text-align: center;
+  padding: 20px;
+}
