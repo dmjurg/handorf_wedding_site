@@ -36,7 +36,7 @@ body {
 
 #sticky-nav {
     margin: 0;
-    background-color: rgba(255, 80, 80, .7);
+    background-color: #FF6262;
     font-family: 'SubFont', cursive;
     border: none;
 }
@@ -115,7 +115,7 @@ ul {
 }
 .endorsements blockquote {
     border: none;
-    background-color: rgba(255, 80, 80, .7);
+    background-color: #FF6262;
     color: #FFFBFB;
 }
 
