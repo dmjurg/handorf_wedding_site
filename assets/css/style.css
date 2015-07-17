@@ -88,6 +88,10 @@ img.hotel-pic {
   width: 250px;
   height: 250px;
 }
+img.wed-party {
+  width: 200px;
+  height: 200px;
+}
 ul {
   list-style-type: none;
   padding: 0px;
