@@ -7,3 +7,9 @@ $(document).scroll(function() {
         $('#sticky-nav').removeClass('navbar-fixed-top');
     }
 });
+
+var maids = $('.maids li')
+
+maids.on("click", function() {
+  console.log("hithere")
+})
