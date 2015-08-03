@@ -8,8 +8,8 @@ $(document).scroll(function() {
     }
 });
 
-var maids = $('.maids li')
+var party = $('.wed-party-mem li')
 
-maids.on("click", function() {
-  console.log("hithere")
+party.on("click", function() {
+  $(this).closest('li').find('img').slideToggle();
 })

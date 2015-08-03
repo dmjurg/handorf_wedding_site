@@ -22,7 +22,6 @@ body {
     /*100% of viewport height*/
     min-height: 100vh;
 }
-
 .main-banner>.banner-text {
     position: absolute;
     top: 50%;
@@ -36,7 +35,6 @@ body {
     margin-top: 0;
     margin-bottom: 20px;
 }
-
 .transbox {
   background-color: rgba(234, 255, 248, .7);
   padding: 30px;
@@ -49,7 +47,6 @@ body {
   /*min-height: 100vh;
   min-width: 100vh;*/*/
 }
-
 #sticky-nav {
     margin: 0;
     /*coral*/
@@ -62,17 +59,15 @@ body {
     color: #FFFBFB;
     margin: 0;
 }
-
 @media (min-width: 768px) {
-.navbar .navbar-nav {
+  .navbar .navbar-nav {
     display: inline-block;
     float: none;
     vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
 }
 h1 {
   font-family: 'HeadingFont', cursive;
@@ -95,7 +90,6 @@ h4 {
 p {
   font-family: 'Brawler', serif;
   font-size: 1.25em;
-
 }
 img.couple-pic {
   max-width: 350px;
@@ -114,14 +108,17 @@ ul {
   padding: 0px;
   margin: 0px;
 }
-.maids li, .lads li {
+.wed-party-mem li {
   margin: 20px;
   padding: 10px;
   border-radius: 5px;
   background-color: rgb(0, 51, 76);
   color: #FFFBFB;
 }
-.maids, .lads {
+.gal-pic, .guy-pic {
+  display: none;
+}
+.wed-party-mem {
   font-family: 'Brawler', serif;
 }
 .marketing {
@@ -136,7 +133,6 @@ ul {
 .glyphicon {
   font-size: 2em;
 }
-
 .endorsements {
     margin: 80px auto;
     max-width: 1800px;
@@ -146,47 +142,38 @@ ul {
     background-color: rgb(255, 163, 139);
     color: #FFFBFB;
 }
-
 blockquote h3 {
     font-family: 'SubFont', cursive;
 }
-
 blockquote footer {
     font-family: 'HeadingFont', cursive;
     color: #FFFBFB;
 }
-
 blockquote, .blockquote-reverse {
     display: inline-block;
     margin-bottom: 40px;
     padding: 10px 20px;
 }
-
 .endorsements blockquote:nth-child(even) {
     float: right;
 }
-
 .endorsements blockquote:nth-child(odd) {
     float: left;
 }
-
 @media (max-width: 767px) {
     blockquote h3, blockquote footer {
-        font-size: 1em;
-        line-height: 1.2em;
+      font-size: 1em;
+      line-height: 1.2em;
     }
-
     .endorsements blockquote {
-        max-width: 85%;
+      max-width: 85%;
     }
 }
-
 @media (min-width: 768px) {
     blockquote h3, blockquote footer {
         font-size: 1.5em;
         line-height: 1.3em;
     }
-
     .endorsements blockquote {
         max-width: 65%;
     }
