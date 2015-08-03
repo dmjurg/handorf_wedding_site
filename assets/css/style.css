@@ -115,7 +115,7 @@ ul {
   background-color: rgb(0, 51, 76);
   color: #FFFBFB;
 }
-.gal-pic, .guy-pic {
+.gal-pic, .guy-pic, .meeting {
   display: none;
 }
 .wed-party-mem {

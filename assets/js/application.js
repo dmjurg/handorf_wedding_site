@@ -11,5 +11,5 @@ $(document).scroll(function() {
 var party = $('.wed-party-mem li')
 
 party.on("click", function() {
-  $(this).closest('li').find('img').slideToggle();
+  $(this).closest('li').children().slideToggle();
 })
