@@ -19,7 +19,7 @@ body {
     font-family: 'BodyFont', sans-serif;
 }
 .main-banner {
-    background: url('../img/front_flowers.jpg') no-repeat center center fixed;
+    background: url('../img/front_flowers_white.jpg') no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
