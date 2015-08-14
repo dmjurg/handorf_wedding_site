@@ -6,15 +6,20 @@
   font-family: 'SubFont';
   src: url('../moon_flower/Moon Flower Bold.ttf'); /* IE9 Compat Modes */
 }
+@font-face {
+  font-family: 'BodyFont';
+  src: url('../weblysleek_ui/weblysleekuil.ttf');
+}
 body {
     /* light teal grey */
     background-color: rgb(234, 255, 248);
     /* navy */
     color: rgb(0, 51, 76);
     font-size: 16px;
+    font-family: 'BodyFont', sans-serif;
 }
 .main-banner {
-    background: url(../img/Pink_Front_Arrangement.jpg) no-repeat center center fixed;
+    background: url('../img/front_flowers.jpg') no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -35,27 +40,15 @@ body {
     margin-top: 0;
     margin-bottom: 20px;
 }
-.transbox {
-  background-color: rgba(234, 255, 248, .7);
-  padding: 30px;
-  border-radius: 150px;
-  /*background-size: cover;*/
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  /*100% of viewport height*/
-  /*min-height: 100vh;
-  min-width: 100vh;*/*/
-}
 #sticky-nav {
     margin: 0;
     /*coral*/
     background-color: rgb(255, 163, 139);
-    font-family: 'SubFont', cursive;
+    font-family: 'BodyFont', sans-serif;
     border: none;
 }
 #sticky-nav a {
-    font-size: 3em;
+    font-size: 2em;
     color: #FFFBFB;
     margin: 0;
 }
@@ -82,22 +75,16 @@ h2 {
   font-size: 5em;
   color: rgb(0, 51, 76);
 }
-h4 {
-  font-family: 'HeadingFont', cursive;
-  font-size: 3.75em;
-  color: rgb(0, 51, 76);
+h2.location {
+  font-size: 4em;
 }
-p {
-  font-family: 'Brawler', serif;
-  font-size: 1.25em;
+h3 {
+  font-family: 'SubFont', cursive;
+  font-size: 3em;
 }
 img.couple-pic {
   max-width: 350px;
   max-height: 400px;
-}
-img.hotel-pic {
-  width: 250px;
-  height: 250px;
 }
 img.wed-party {
   width: 120px;
@@ -108,31 +95,38 @@ ul {
   padding: 0px;
   margin: 0px;
 }
-.wed-party-mem li {
-  margin: 20px;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: rgb(0, 51, 76);
-  color: #FFFBFB;
+h4 {
+  font-family: 'HeadingFont', cursive;
+  font-size: 1.75em;
+  /*color: #FFFBFB;*/
+  color: rgb(0, 51, 76);
 }
-.gal-pic, .guy-pic, .meeting {
+.wed-party-mem li {
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 2px;
+  /*background-color: rgb(0, 51, 76);
+  color: #FFFBFB;*/
+  /*max-width: 300px;*/
+}
+.gal-pic, .guy-pic, .wed-party-backstory {
   display: none;
 }
-.wed-party-mem {
-  font-family: 'Brawler', serif;
+.schedule p {
+  font-size: 1.25em;
 }
-.marketing {
-  background-color: rgb(234, 255, 248);
-  padding: 40px 60px;
-  font-family: 'SubFont', cursive;
+img.hotel-pic {
+  width: 250px;
+  height: 250px;
 }
-.marketing h3 {
-  color: rgb(0, 51, 76);
-  font-size: 3em;
+.hotel-info a {
+  font-family: 'HeadingFont', cursive;
+  font-size: 2.25em;
 }
-.glyphicon {
-  font-size: 2em;
+img.registry-store {
+  max-width: 200px;
 }
+
 .endorsements {
     margin: 80px auto;
     max-width: 1800px;
