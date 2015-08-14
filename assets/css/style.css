@@ -90,6 +90,9 @@ img.wed-party {
   width: 120px;
   height: 120px;
 }
+p.wedding-party-backstory {
+  width: 120px;
+}
 ul {
   list-style-type: none;
   padding: 0px;
@@ -101,15 +104,16 @@ h4 {
   /*color: #FFFBFB;*/
   color: rgb(0, 51, 76);
 }
+h4:hover {
+  color: rgb(255, 163, 139);
+}
 .wed-party-mem li {
   margin: 10px auto;
-  padding: 5px;
-  border-radius: 2px;
-  /*background-color: rgb(0, 51, 76);
-  color: #FFFBFB;*/
-  /*max-width: 300px;*/
 }
-.gal-pic, .guy-pic, .wed-party-backstory {
+img.gal-pic, img.guy-pic {
+  float: left;
+}
+.wed-party-name, .gal-pic, .guy-pic, .wed-party-backstory {
   display: none;
 }
 .schedule p {
