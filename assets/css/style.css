@@ -83,16 +83,13 @@ h3 {
   font-size: 3em;
 }
 .about-the-couple {
-  width: 90%;
-  margin: auto;
+  /*width: 90%;
+  margin: auto;*/
 }
-.answers {
-  width: 30%;
-  float: left;
+.answers h4 {
+  text-align: center;
 }
-.answers ul {
-  margin: 15px;
-}
+
 .answers strong{
   font-size: 1.15em;
 }
@@ -100,7 +97,7 @@ h3 {
   text-align: justify;
 }
 img.okc-pic {
-  float: left;
+  /*float: left;*/
 }
 img.couple-pic {
   max-width: 350px;
@@ -124,7 +121,7 @@ h4 {
   /*color: #FFFBFB;*/
   color: rgb(0, 51, 76);
 }
-h4:hover {
+.gal h4:hover, .guy h4:hover {
   color: rgb(255, 163, 139);
 }
 .wed-party-mem li {
@@ -132,9 +129,13 @@ h4:hover {
 }
 img.gal-pic, img.guy-pic {
   float: left;
+  margin: 5px;
 }
 .wed-party-name, .gal-pic, .guy-pic, .wed-party-backstory {
   display: none;
+}
+.wed-party-backstory {
+  text-align: justify;
 }
 .schedule p {
   font-size: 1.25em;
