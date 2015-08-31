@@ -82,6 +82,26 @@ h3 {
   font-family: 'SubFont', cursive;
   font-size: 3em;
 }
+.about-the-couple {
+  width: 90%;
+  margin: auto;
+}
+.answers {
+  width: 30%;
+  float: left;
+}
+.answers ul {
+  margin: 15px;
+}
+.answers strong{
+  font-size: 1.15em;
+}
+.answers li {
+  text-align: justify;
+}
+img.okc-pic {
+  float: left;
+}
 img.couple-pic {
   max-width: 350px;
   max-height: 400px;
