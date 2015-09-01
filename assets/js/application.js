@@ -13,3 +13,9 @@ var party = $('.wed-party-mem li')
 party.on("click", function() {
   $(this).closest('li').children().slideToggle();
 })
+// 
+// var menu = $('.menu')
+//
+// menu.on("click", function() {
+//   alert("brinner");
+// })

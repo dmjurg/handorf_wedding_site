@@ -140,6 +140,12 @@ img.gal-pic, img.guy-pic {
 .schedule p {
   font-size: 1.25em;
 }
+.menu {
+  font-family: HeadingFont;
+}
+.menu:hover {
+  color: rgb(255, 163, 139);
+}
 img.hotel-pic {
   width: 250px;
   height: 250px;
