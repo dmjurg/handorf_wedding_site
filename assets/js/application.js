@@ -8,14 +8,14 @@ $(document).scroll(function() {
     }
 });
 
-var party = $('.wed-party-mem li')
+var party = $('.wed-party-mem li');
 
 party.on("click", function() {
   $(this).closest('li').children().slideToggle();
+});
+
+var menuLink = $('.menu');
+
+menuLink.on("click", function() {
+  $(".menu-modal").show();
 })
-// 
-// var menu = $('.menu')
-//
-// menu.on("click", function() {
-//   alert("brinner");
-// })

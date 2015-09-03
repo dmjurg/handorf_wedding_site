@@ -146,6 +146,20 @@ img.gal-pic, img.guy-pic {
 .menu:hover {
   color: rgb(255, 163, 139);
 }
+.menu-modal {
+  display: none;
+  overflow: scroll;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  z-index: 100;
+  background-color: rgb(255, 163, 139);
+}
+.menu-listing li {
+  font-size: 2em;
+  color: #FFFBFB;
+}
 img.hotel-pic {
   width: 250px;
   height: 250px;
