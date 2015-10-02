@@ -131,7 +131,7 @@ img.gal-pic, img.guy-pic {
   float: left;
   margin: 5px;
 }
-.wed-party-name, .gal-pic, .guy-pic, .wed-party-backstory {
+.person-bio {
   display: none;
 }
 .wed-party-backstory {

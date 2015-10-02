@@ -10,12 +10,20 @@ $(document).scroll(function() {
 
 var party = $('.wed-party-mem li');
 
-party.on("click", function() {
-  $(this).closest('li').children().slideToggle();
+party.on('click', function() {
+  $(".person-bio").hide();
+  $("h4").show();
+  $(this).children("h4").slideToggle();
+  $(this).children(".person-bio").slideToggle();
 });
 
 var menuLink = $('.menu');
+var menuModal = $('.menu-modal');
 
-menuLink.on("click", function() {
-  $(".menu-modal").show();
+menuLink.on('click', function() {
+  menuModal.show();
+})
+
+menuModal.on('click', function() {
+  menuModal.hide();
 })
