@@ -8,13 +8,13 @@ $(document).scroll(function() {
     }
 });
 
-var party = $('.wed-party-mem li');
+var party = $('.wed-party-mem li h4');
 
 party.on('click', function() {
   $(".person-bio").hide();
   $("h4").show();
-  $(this).children("h4").slideToggle();
-  $(this).children(".person-bio").slideToggle();
+  $(this).slideToggle();
+  $(this).siblings(".person-bio").slideToggle();
 });
 
 var menuLink = $('.menu');
