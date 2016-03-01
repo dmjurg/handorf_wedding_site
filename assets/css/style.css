@@ -157,7 +157,8 @@ img.gal-pic, img.guy-pic {
   background-color: rgb(255, 163, 139);
 }
 .menu-listing li {
-  font-size: 2em;
+  font-size: 1.7em;
+  padding: 10px 0;
   color: #FFFBFB;
 }
 img.hotel-pic {
